@@ -1,0 +1,75 @@
+.block1 {
+  color: #ffffff;
+  position: relative;
+  background:linear-gradient(0deg, rgba(18, 28, 38, 0.5), rgba(18, 28, 38, 0.5)), url("../img/bg_block1.png") 10% 50% no-repeat;
+  padding: 100px 0 40px;
+  .main__logo {
+    margin-top: 60px;
+    text-align: center;
+  }
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  &__sub-title {
+    text-align: center;
+    line-height: normal;
+    font-size: 16px;
+
+    margin-bottom: 15px;
+    p {
+      margin: 0;
+    }
+  }
+  &__big-title {
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 64px;
+    margin-bottom: 50px;
+  }
+  &__form {
+    margin-bottom: 138px;
+    .form__item {
+      text-align: center;
+      &_field {
+        border-radius: 10px;
+        background: #FFFFFF;
+        font-weight: 500;
+        line-height: 45px;
+        font-size: 18px;
+        color: #9C9C9C;
+        width: 240px;
+        border: none;
+        height: 45px;
+        padding-left: 15px;
+        &:focus, &:active {
+          outline: none;
+        }
+      }
+      &_btn {
+        width: 219px;
+        height: 45px;
+        border-radius: 10px;
+        font-weight: 500;
+        line-height: 45px;
+        font-size: 18px;
+        padding: 0 22px;
+        background: #845B2A;
+        border: none;
+      }
+    }
+    .right-field {
+      text-align: right;
+    }
+    .left-field {
+      text-align: left;
+    }
+  }
+  .link__next-block {
+    text-align: center;
+  }
+}

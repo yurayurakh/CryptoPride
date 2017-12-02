@@ -1,0 +1,12 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  padding: 35px 0;
+  z-index: 2;
+  &__social {
+    text-align: right;
+  }
+}

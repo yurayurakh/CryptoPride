@@ -1,0 +1,22 @@
+.nav {
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: inline-block;
+    margin-right: 60px;
+    &_link {
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      padding-bottom: 5px;
+      &:hover {
+        border-bottom: 1px solid #ffffff;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
