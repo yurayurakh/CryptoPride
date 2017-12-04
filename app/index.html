@@ -10,6 +10,10 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat:bold">
 
+    <!-- Owl Carousel 2 Style -->
+    <link rel="stylesheet" href="lib/owl.carousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="lib/owl.carousel/dist/assets/owl.theme.default.css">
+
     <!-- Main style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,7 +22,7 @@
         <header class="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-4 col-xs-8">
                         <div class="header__logo logo">
                             <a href="" class="logo__link">
                                 <svg width="199" height="20" viewBox="0 0 199 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -76,28 +80,28 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-5 hidden-sm hidden-xs">
                         <nav class="header__nav nav">
                             <ul class="nav__list">
                                 <li class="nav__item">
-                                    <a href="" class="nav__item_link">
+                                    <a href="#course" class="nav__item_link scroll-to">
                                         Информация о курсе
                                     </a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="" class="nav__item_link">
+                                    <a href="#review" class="nav__item_link scroll-to">
                                         Отзывы
                                     </a>
                                 </li>
                                 <li class="nav__item">
-                                    <a href="" class="nav__item_link">
+                                    <a href="#about_us" class="nav__item_link scroll-to">
                                         О нас
                                     </a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-2 float-right">
+                    <div class="col-md-2 col-sm-3 col-xs-4 float-right">
                         <div class="header__social social">
                             <ul class="social__list">
                                 <li class="social__item">
@@ -122,7 +126,7 @@
             </div>
         </header>
         <div class="main-content">
-            <div class="block1">
+            <div class="block1" >
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
@@ -143,7 +147,174 @@
                     </div>
                     <div class="row">
                         <div class="container">
-                            <form class="block1__form clearfix" action="" method="post">
+                            <form class="block1__form form clearfix" action="" method="post">
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="form__item right-field">
+                                        <input type="text" name="name" class="form__item_field" placeholder="Имя">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="form__item">
+                                        <input type="email" name="email" class="form__item_field" placeholder="Почта">
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <div class="form__item left-field">
+                                        <button class="form__item_btn">посмотреть видео</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="link__next-block">
+                            <a href="#course" class="scroll-to">
+                                <img src="img/down_arrow.svg" alt="down arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block2" id="course">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="block2__title">
+                                В этом <span class="bold">бесплатном</span> курсе мы собрали для вас все необходимые<br/>
+                                знания и технологии для успешного старта. Из курса вы узнаете:
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="block2__list">
+                            <div class="block2__item">
+                                <div class="block2__item_title">
+                                    10%
+                                </div>
+                                <div class="block2__item_text">
+                                    Куда вложить средства<br/>
+                                    <span class="bold">под 10%</span> в месяц
+                                </div>
+                            </div>
+                            <div class="block2__item">
+                                <div class="block2__item_title">
+                                    365
+                                </div>
+                                <div class="block2__item_text">
+                                    Сколько можно заработать<br/>
+                                    на криптовалюте за <span class="bold">год</span>
+                                </div>
+                            </div>
+                            <div class="block2__item">
+                                <div class="block2__item_title">
+                                    4
+                                </div>
+                                <div class="block2__item_text">
+                                    <span class="bold">4 основные ошибки</span><br/>
+                                    начинающих инвесторов
+                                </div>
+                            </div>
+                            <div class="block2__item">
+                                <div class="block2__item_title">
+                                    ×3
+                                </div>
+                                <div class="block2__item_text">
+                                    Как увеличить свои<br/>
+                                    сбережение <span class="bold">в 3 раза</span>
+                                </div>
+                            </div>
+                            <div class="block2__item">
+                                <div class="block2__item_title">
+                                    31
+                                </div>
+                                <div class="block2__item_text">
+                                    Как выйти на пассивный<br/>
+                                    доход <span class="bold">в первый месяц.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax_bg">
+                <div class="block3" id="about_us">
+                    <div class="container">
+                        <div class="row mobile-revert">
+                            <div class="col-md-6 col-xs-12 mobile-bottom">
+                                <div class="block3__video">
+                                    <img src="img/video.jpg" alt="">
+                                    <img class="play-button" src="img/play-button.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12 mobile-top">
+                                <div class="block3__detail">
+                                    <div class="block3__detail_title">
+                                        Посмотрите <span class="bold">личное обращение</span><br/>
+                                        от авторов курса
+                                    </div>
+                                    <div class="block3__detail_text">
+                                        Александр Александров и его команда, рассказывают
+                                        о том, как нужно выбирать ICO и начать
+                                        инвестирование. Это рыбный текст, который служит
+                                        для временного наполнения макета, пока финальный
+                                        текст еще не создан. Иногда текст “рыба” так-же
+                                        используется композиторами.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="block4__item item1">
+                                    Безупречная репутация. Более  5 лет
+                                    на рынке и сотни заработанных
+                                    миллионов для наших инвесторов.
+                                </div>
+                            </div>
+                            <div class="col-sm-5 float-right">
+                                <div class="block4__item item2">
+                                    Инвестирование с минимальным
+                                    риском. Никаких вкладов
+                                    в непроверенные ICO или
+                                    подозрительные монеты.
+                                </div>
+                            </div>
+                        </div>
+                        <img class="block4__main-item" src="img/pride_block4.png" alt="">
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="block4__item item3">
+                                    Инновационные крипто-продукты
+                                    для массового потребления. Alpha-Cash,
+                                    Alpha-Pay, Alpha-Broker и другие,
+                                    делающие криптовалюту доступной
+                                    для всех слоев населения.
+                                </div>
+                            </div>
+                            <div class="col-sm-5 float-right text-right">
+                                <div class="block4__item item4">
+                                    Идеология. Мы уверены – криптовалюты
+                                    это будущее цифровой экономики
+                                    и отличная замена текщих финансовых
+                                    инструментов.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block5">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="block5__title">
+                                <span class="bold">Оставьте заявку</span> на прохождение курса
+                            </h2>
+                        </div>
+                        <div class="row">
+                            <form class="block5__form form clearfix" action="" method="post">
                                 <div class="col-sm-4">
                                     <div class="form__item right-field">
                                         <input type="text" name="name" class="form__item_field" placeholder="Имя">
@@ -162,26 +333,148 @@
                             </form>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="link__next-block">
-                            <a href="">
-                                <img src="img/down_arrow.svg" alt="down arrow">
-                            </a>
+                </div>
+                <div class="block6" id="review">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="block6__title">
+                                    <span class="bold">Отзывы</span> о курсах
+                                </h2>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="block2">
-
+                <div class="slider owl-carousel">
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="img/video.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <footer class="footer">
-
+            <div class="container">
+                <div class="row swap-vr">
+                    <div class="col-md-4 col-lg-5 swap-vr__foot">
+                        <div class="footer__social social">
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a href="" class="social__item_link">
+                                        <img src="img/icon/youtube.svg" alt="youtube">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__item_link">
+                                        <img src="img/icon/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="" class="social__item_link">
+                                        <img src="img/icon/vk.svg" alt="vk">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright">
+                            Все права защищены. Договор оферты. <span class="mobile-number">8(800) 555-35-35.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 swap-vr__head">
+                        <div class="footer__logo">
+                            <img src="img/footer_logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 swap-vr__body">
+                        <nav class="footer__nav nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a href="#course" class="nav__item_link scroll-to">
+                                        Информация о курсе
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#review" class="nav__item_link scroll-to">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#about_us" class="nav__item_link scroll-to">
+                                        О нас
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 
     <!-- Scripts -->
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="js/common.js"></script>
+
+    <!-- Owl Carousel 2 Script -->
+    <script src="lib/owl.carousel/dist/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                items: 1,
+                nav: false,
+                margin: 60,
+                stagePadding: 350,
+                dots: true,
+                smartSpeed:1000,
+
+                responsive: {
+
+                    0:{
+                        stagePadding: 20,
+                        items: 1
+                    },
+                    768: {
+                        stagePadding: 220,
+                        items: 1
+                    },
+                    992: {
+                        stagePadding: 270,
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    },
+                    1920: {
+                        stagePadding: 150,
+                        items: 3
+                    }
+                }
+            });
+        })
+    </script>
 </body>
 </html>

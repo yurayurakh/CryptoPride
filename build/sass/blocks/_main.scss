@@ -1,4 +1,11 @@
 .wrapper {
   position: relative;
   overflow: hidden;
+  background: #F5F5F5;
+}
+
+.parallax_bg {
+  background: url("../img/logo_parallax.png") bottom left no-repeat;
+  background-position: 0 90%;
+  background-attachment: fixed;
 }

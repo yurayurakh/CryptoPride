@@ -31,44 +31,11 @@
     font-size: 64px;
     margin-bottom: 50px;
   }
-  &__form {
+
+  .block1__form {
     margin-bottom: 138px;
-    .form__item {
-      text-align: center;
-      &_field {
-        border-radius: 10px;
-        background: #FFFFFF;
-        font-weight: 500;
-        line-height: 45px;
-        font-size: 18px;
-        color: #9C9C9C;
-        width: 240px;
-        border: none;
-        height: 45px;
-        padding-left: 15px;
-        &:focus, &:active {
-          outline: none;
-        }
-      }
-      &_btn {
-        width: 219px;
-        height: 45px;
-        border-radius: 10px;
-        font-weight: 500;
-        line-height: 45px;
-        font-size: 18px;
-        padding: 0 22px;
-        background: #845B2A;
-        border: none;
-      }
-    }
-    .right-field {
-      text-align: right;
-    }
-    .left-field {
-      text-align: left;
-    }
   }
+
   .link__next-block {
     text-align: center;
   }

@@ -1,0 +1,40 @@
+.block5 {
+  position: relative;
+  background: #F0EEEB;
+  text-align: center;
+  padding: 50px 0 50px;
+  margin-bottom: 60px;
+  &__title {
+    margin-bottom: 40px;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    color: #121C26;
+  }
+  &__form {
+    color: #ffffff;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F5F5F5;
+    height: 30px;
+    width: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background: #F0EEEB;
+    height: 50px;
+    width: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+  }
+}

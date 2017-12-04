@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $("a.scroll-to").click(function() {
         var elementClick = $(this).attr("href");

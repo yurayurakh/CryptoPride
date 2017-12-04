@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a.scroll-to").click(function(){var t=$(this).attr("href"),o=$(t).offset().top;return screen.width<768&&(o=$(t).offset().top),jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop:o},800),!1})});

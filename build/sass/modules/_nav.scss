@@ -1,11 +1,17 @@
 .nav {
   &__list {
     list-style: none;
+    text-align: justify;
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 0;
+    }
   }
 
   &__item {
     display: inline-block;
-    margin-right: 60px;
     &_link {
       font-size: 18px;
       line-height: 22px;
