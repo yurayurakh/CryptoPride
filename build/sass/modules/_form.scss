@@ -24,8 +24,12 @@
       line-height: 45px;
       font-size: 18px;
       padding: 0 22px;
-      background: #845B2A;
+      background-color: #845B2A;
       border: none;
+      &:hover {
+        transition: all .3s ease;
+        background-color: #704511 ;
+      }
     }
   }
   .right-field {
